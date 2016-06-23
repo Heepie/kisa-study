@@ -12,6 +12,8 @@ Meteor.publish("wallets", function () {
 
 Meteor.startup(() => {
   // code to run on server at startup
+
+  // 비트코인 거래소 가격
   Meteor.setInterval(function(){
     console.log("hell ro world");
 
